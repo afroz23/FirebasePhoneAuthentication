@@ -9,11 +9,12 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="300dp"
-        android:layout_height="61dp"
-        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_dark_background"
         android:text="Welcome Boss"
         android:textAlignment="center"
+        android:paddingTop="320dp"
         android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
