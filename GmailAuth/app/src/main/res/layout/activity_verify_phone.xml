@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyPhoneActivity"
+>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="297dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435">
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="104dp"
+            android:background="@drawable/phoneclip"
+            android:layout_marginLeft="120dp"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wait for the code I sent You"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="40dp"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editTextCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:hint="Enter Verification Code"
+            android:inputType="phone"
+            android:maxLength="10" />
+
+        <Button
+            android:id="@+id/buttonSignIn"
+            android:layout_width="239dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:isScrollContainer="false"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textColor="#cdd8f1"
+            android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
