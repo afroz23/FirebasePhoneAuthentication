@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileActivity">
+    tools:context=".ProfileActivity"
+    android:background="@color/colorPrimary">
 
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="411dp"
-        android:layout_height="741dp"
-        android:background="@color/cardview_dark_background"
-        android:paddingTop="320dp"
-        android:text="Welcome Boss"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:text="Welcome Boss In the world"
         android:textAlignment="center"
+        android:textColor="@color/colorAccent"
         android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
